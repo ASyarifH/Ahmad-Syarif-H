@@ -1,7 +1,7 @@
 #Kamus Sederhana Dengan Mensorting Urutan Dari A-Z menggunakan Bubble Sort, Selection Sort, Insertion Sort
 import csv
 
-with open('kamus.csv') as file:
+with open('kamus Sederhana.csv') as file:
     reader = csv.reader(file)
     data = []
     for row in reader:
